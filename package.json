@@ -1,0 +1,33 @@
+{
+  "name": "exo_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha \"tests/**/*.test.js\"",
+    "test:watch": "mocha \"tests/**/*.test.js\" --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.22.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
